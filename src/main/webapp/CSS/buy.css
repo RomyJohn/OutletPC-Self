@@ -1,0 +1,25 @@
+section .col-lg-4 .list-group, 
+section .col-12{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+section .list-group-item {
+    border: 0px;
+}
+section .positionLeft,
+#proceedButton1,
+#proceedButton2{
+    float: right;
+}
+#additionalText1,
+#additionalText2{
+    display: none;
+}
+#cardModal input,
+#cardModal .custom-select,
+#netbankingModal .custom-select
+{
+    height: 45px;
+}
+body{
+    background-color: #F1F3F6;
+}

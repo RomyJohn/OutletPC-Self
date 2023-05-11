@@ -1,0 +1,23 @@
+section .list-group-item{
+    border: 0px;
+}
+section .list-group, 
+section .col-md-7{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.disabledForm input, 
+.disabledForm textarea{
+    cursor: no-drop;
+}
+.col-md-7 input,
+.col-md-7 .btn,
+.modal input,
+.modal .btn{
+    height: 45px;
+}
+
+@media screen and (max-width: 767px) {
+    section #logoutButton {
+        display: none;
+    }
+}

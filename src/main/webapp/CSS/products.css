@@ -1,0 +1,32 @@
+section .container-fluid a, 
+section .container-fluid a:hover{
+    color: #212529;
+}
+#scrollerButton{
+    position: fixed;
+    top: 90vh;
+    opacity: 0;
+    z-index: 999;
+    right: 1.5vw;
+}
+.container-fluid .col-md-3 ul, .container-fluid .col-md-8, #productHeader{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+section .list-group-item {
+    border: 0px;
+}
+section .col-md-3 h6, section .col-md-3 p, section .col-md-3 label, .container-fluid h6, section span{
+    font-size: 0.9rem;
+}
+section .col-md-3 .form-check{
+    margin-top: 0.5rem;
+}
+body{
+    background-color: #F1F3F6;
+}
+
+@media screen and (max-width: 767px){
+    #scrollerButton{
+        display: none;
+    }
+}
